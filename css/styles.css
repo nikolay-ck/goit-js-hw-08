@@ -1,0 +1,50 @@
+body {
+    background-color: #fafafa;
+    color: #212121;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.gallery {
+    max-width: 1228px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 0 auto;
+    padding: 24px 0;
+}
+
+.gallery-item {
+    flex-basis: calc((100% - 48px) / 3);
+}
